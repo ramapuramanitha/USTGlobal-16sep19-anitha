@@ -1,0 +1,14 @@
+package com.ustglobal.thread.pausinig;
+
+public class Counter {
+	int v;
+	public void increment() {
+		v++;
+	}
+	public void decrement() {
+		v--;
+	}
+	public void showValue() {
+		System.out.println("Vvalue is "+v);
+	}
+}

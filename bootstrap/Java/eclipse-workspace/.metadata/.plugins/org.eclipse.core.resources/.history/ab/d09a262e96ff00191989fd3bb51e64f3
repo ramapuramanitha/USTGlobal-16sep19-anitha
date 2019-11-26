@@ -1,0 +1,13 @@
+
+package com.ustglobal.map;
+
+import java.util.HashMap;
+
+public class TestC {
+
+
+public static void main(String[] args) {
+	HashMap hm=new HashMap();
+	m);
+}
+}

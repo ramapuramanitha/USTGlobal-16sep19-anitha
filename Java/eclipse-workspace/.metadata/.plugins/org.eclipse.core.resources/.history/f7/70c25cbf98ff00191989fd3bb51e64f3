@@ -1,0 +1,18 @@
+package com.ustglobal.map;
+
+import java.util.TreeMap;
+
+public class TestE {
+	public static void main(String[] args) {
+
+		TreeMap <String,Integer> lh=new TreeMap<String, Integer>();
+		lh.put("Banglore",560068);
+		lh.put("Hariyana",134203);
+		lh.put("Patna",880000);
+		lh.put(null,456789);
+		
+		System.out.println(lh);
+		
+		
+	}
+}

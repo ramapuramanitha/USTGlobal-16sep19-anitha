@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.ustglobal.java8features.Function&apos; to &apos;FunctionClass&apos;&#x0D;&#x0A;- Original project: &apos;java8features&apos;&#x0D;&#x0A;- Original element: &apos;com.ustglobal.java8features.Function&apos;&#x0D;&#x0A;- Renamed element: &apos;com.ustglobal.java8features.FunctionClass&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Function&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;com.ustglobal.java8features{Function.java[Function" matchStrategy="1" name="FunctionClass" qualified="false" references="true" similarDeclarations="false" stamp="1572949646583" textual="false" version="1.0"/>
+</session>

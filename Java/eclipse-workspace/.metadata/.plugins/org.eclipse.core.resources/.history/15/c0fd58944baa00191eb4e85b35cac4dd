@@ -1,0 +1,32 @@
+package com.jspiders1;
+
+public class BIgElement {
+public static void main(String arg[])
+{
+Matrix m=new Matrix();
+System.out.println("Enter the matrix elements");
+int a[][]=m.readMatrix();
+System.out.println("Entered matrix");
+m.dispArray(a);
+int pbig=a[0][0],sbig=a[0][a[0].length-1];
+for(int i=0;i<a.length;i++)
+{
+for(int j=0;j<a[i].length;j++)
+{
+if(i==j)
+{
+if(pbig<a[i][j])
+pbig=a[i][j];
+}
+if(i+j==a.length-1)
+{
+if(sbig<a[i][j])
+sbig=a[i][j];
+}
+}
+}
+System.out.println("primary biggest diagonal element"+pbig);
+System.out.println("secondary biggest diagonal element"+sbig);
+}
+}
+

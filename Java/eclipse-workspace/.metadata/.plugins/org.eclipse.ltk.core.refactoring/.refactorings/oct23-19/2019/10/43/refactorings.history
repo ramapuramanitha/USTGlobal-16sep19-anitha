@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move &apos;BMW.java&apos; to &apos;oct23-19&apos;" description="Move &apos;BMW.java&apos; to &apos;oct23-19&apos;" destination="/oct23-19" element1="/oct22-19/src/BMW.java" flags="7" id="org.eclipse.ltk.core.refactoring.move.resources" resources="1" stamp="1571896568045" updateReferences="true"/>
+</session>

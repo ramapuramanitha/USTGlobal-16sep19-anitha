@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;flipkart/src/flipkart&apos; to &apos;com.ustglobal.flipkart.admin&apos;" description="Rename resource &apos;flipkart&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/flipkart" name="com.ustglobal.flipkart.admin" stamp="1571899341256" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;flipkart/src/flipkart/Access.java&apos; to &apos;Access&apos;" description="Rename resource &apos;Access.java&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/flipkart/Access.java" name="Access" stamp="1571899407017" updateReferences="true"/>
+</session>

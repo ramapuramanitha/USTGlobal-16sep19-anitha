@@ -1,0 +1,16 @@
+package com.ustglobal.thread.pausinig;
+
+public class Test {
+ public static void main(String[] args) {
+	
+	 Counter c=new Counter();
+	 Runnable r1 =()->{
+		 c.decrement();
+		 c.increment();
+	 };
+	 Runnable r2 =()->{
+		 c.decrement();
+		 c.increment();
+	 };
+}
+}

@@ -1,0 +1,4 @@
+public class Debitcard extends Card
+{
+System.out.println("withdral money");
+}

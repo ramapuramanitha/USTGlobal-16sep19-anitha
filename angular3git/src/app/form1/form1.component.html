@@ -1,0 +1,22 @@
+<form action="" class="col-md-4 offset-4 mt-5 mb-5 card card-body">
+    
+    <div class="form-group">
+        <input type="text" name="text" id="text" class="form-control" placeholder="CompanyName"> <br>
+        <input type="text" name="text" id="text" class="form-control" placeholder="Year Of Experiance"> <br>
+        <span>
+                <input type="radio" name="skills" id="java">JAVA
+                <input type="radio" name="skills" id="angular">Angular
+                <input type="radio" name="others" id="sql">SQL
+                <input type="radio" name="others" id="spring">Spring 
+            </span>
+     <br>
+     <br>
+       
+     <input type="text" name="text" id="text" class="form-control" placeholder="CCTC"> <br>
+     <input type="text" name="text" id="text" class="form-control" placeholder="ECTC"> <br>
+        <input type="text" name="text" id="text" class="form-control" placeholder="Ready to Relocate">
+        </div>
+       
+        <div class="form-group">
+            <button type="submit" class="btn btn-success float-right" [disabled]="form.invalid">Schedule Interview</button>
+        </div>

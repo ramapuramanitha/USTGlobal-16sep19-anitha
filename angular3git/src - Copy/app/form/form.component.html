@@ -1,0 +1,24 @@
+<form action="" class="col-md-4 offset-4 mt-5 mb-5 card card-body">
+    
+    <div class="form-group">
+        <input type="text" name="text" id="text" class="form-control" placeholder="CompanyName"> <br>
+        
+        <div>
+<input type="text" list="skills" name="skills" placeholder="   Skills">
+<datalist id="skills">
+  <option value="Java">
+  <option value="j2ee">
+  <option value="python">
+</datalist>
+</div>
+<br>
+        <input type="text" name="text" id="text" class="form-control" placeholder="Year Of Exp"> <br>
+        <input type="text" name="text" id="text" class="form-control" placeholder="MCTC"> <br>
+        <input type="text" name="text" id="text" class="form-control" placeholder="Location">
+        
+        </div>
+        
+        
+        <div class="form-group">
+            <button type="submit" class="btn btn-outline-success float-right" [disabled]="form.invalid">Add Required</button>
+        </div>

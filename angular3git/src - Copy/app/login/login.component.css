@@ -1,0 +1,29 @@
+body{
+    background: #eee;
+/* background-image: url(images/overlay.png),linear-gradient(60deg, rgba(255,165,150,0.5) 5%, rgba(0,228,255,0.35)),
+url(https://html5up.net/uploads/demos/identity/images/bg.jpg); */
+background-repeat: repeat, no-repeat, no-repeat;
+background-size: 100px ,100px, cover, cover;
+background-position: top left,center center,bottom center;
+background-attachment: fixed, fixed, fixed; 
+}
+#mainBlock{
+    border-color: black;
+    border-collapse: inherit;
+    background: rgb(255, 255, 255);
+    width: 40%;
+    margin:  0 auto;
+    text-align: center;
+    padding : 30px;
+}
+img{
+    
+    border-radius:99%;
+}
+ul li{
+    display:inline-block;
+}
+#top{
+    border-block: pink
+
+}

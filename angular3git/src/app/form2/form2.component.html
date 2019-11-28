@@ -1,0 +1,19 @@
+<form action="" class="col-md-4 offset-4 mt-5 mb-5 card card-body">
+    
+    <div class="form-group">
+        <input type="text" name="text" id="text" class="form-control" placeholder="User Name"> <br>
+        <input type="text" name="text" id="text" class="form-control" placeholder="User Age">  
+         </div>
+         <span>
+        <label for="gender">Gender</label> <br>
+        <input type="radio" name="gender" id="male">male
+        <input type="radio" name="gender" id="female">female
+        <input type="radio" name="others" id="others">others
+        </span> <br>
+        <input type="text" name="text" id="text" class="form-control" placeholder="User Email"> <br>
+        <input type="text" name="text" id="text" class="form-control" placeholder="User Contact Number"> <br>
+        <input type="text" name="text" id="text" class="form-control" placeholder="Password"> <br>
+        <input type="text" name="text" id="text" class="form-control" placeholder="Retype-Password">
+        <div class="form-group">
+            <button type="submit" class="btn btn-outline-success float-right" [disabled]="form.invalid">Add User</button>
+        </div>

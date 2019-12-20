@@ -1,0 +1,30 @@
+<br>
+<h2 style ="text-align:center;">Search Book</h2>
+ <div class="alert alert-danger" *ngIf='error'>{{error}}</div>
+<div class="col-md-6 offset-md-3 mt-5">
+    <form #deleteStudent="ngForm" (ngSubmit)="getStudentInfo(deleteStudent)" method="GET"  role="form">
+     <input type="number" name="bid" id="bid" placeholder="Enter id number.." class="form-control mb-3" #bid='ngModel' ngModel>
+     <button class="btn btn-outline-dark" type="submit">search</button>
+    </form>
+</div>
+<table class="table table-bordered" *ngIf="studentData">
+    <thead class="thead-grey">
+        <tr>
+            <td>Book ID</td>
+            <td>Book Name</td>
+            <td>Author</td>
+            <td>Delete</td>
+        </tr>
+    </thead>
+<tbody>
+    <tr *ngFor='let book of books.book'>
+       <td>{{book.bid}}</td>
+       <td>{{book.bName}}</td>
+       <td>{{book.author}}</td>
+       <td>
+           <button type="button" (click)="deleteStudent(book.bid)" class="btn btn-block btn-danger float-right"   
+           >Delete</button>
+       </td>
+    </tr>
+</tbody>
+</table>

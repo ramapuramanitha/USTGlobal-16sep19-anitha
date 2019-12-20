@@ -1,0 +1,22 @@
+<div class="col-md-6 offset-3 mt-4 mb-4">
+    <table class="table table-bordered table-hover">    
+        <thead class="thead-dark">
+            <tr border="2px">
+                <th>bookid</th>
+                <th>bookName</th>
+                <th>issueDate</th>
+                <th>returnDate</th>
+                <th>fine</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor='let book of books.bookissue'>
+                <td>{{book.bid}}</td>
+                <td>{{book.bName}}</td>
+                <td>{{book.issueDate}}</td>
+                <td>returnDate</td>
+                <td>fine</td>
+            </tr>
+        </tbody>
+    </table>
+</div>

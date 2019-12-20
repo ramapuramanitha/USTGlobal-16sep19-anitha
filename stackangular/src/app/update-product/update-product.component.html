@@ -1,0 +1,27 @@
+<br>
+<h2 style ="text-align:center;">Update Product</h2>
+ <div class="alert alert-danger" *ngIf='error'>{{error}}</div>
+<div class="col-md-6 offset-md-3 mt-5">
+    <form #deleteStudent="ngForm" (ngSubmit)="getStudentInfo" method="GET"  role="form">
+     <input type="number" name="id" id="id" placeholder="Enter id number.." class="form-control mb-3" #bid='ngModel' ngModel>
+     <button class="btn btn-outline-dark" type="submit">search</button>
+    </form>
+</div>
+<table class="table table-bordered" *ngIf="product Data">
+    <thead class="thead-grey">
+        <tr>
+            <td>Product ID</td>
+            <td>Product Name</td>
+            <td>Company</td>
+        </tr>
+    </thead>
+<tbody>
+    <tr *ngFor='let product of products.product'>
+       <td>{{product.id}}</td>
+       <td>{{product.name}}</td>
+       <td>{{product.company}}</td>
+    </tr>
+</tbody>
+</table>
+
+
